@@ -1,6 +1,6 @@
 # DesignPatterns using C#
 
-# what is a singelton pattern?
+what is a singelton pattern?
 # Only create one instance of a class.
 # if we want a class to hav only one object, then we use the singleton pattern 
 
