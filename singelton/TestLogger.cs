@@ -6,6 +6,8 @@ namespace DesignPatterns.singelton
 {
     class TestLogger
     {
+
+        /*
         static void Main(string[] args)
         {
            
@@ -25,6 +27,7 @@ namespace DesignPatterns.singelton
             Console.WriteLine(obj4.GetHashCode());
 
         }
+        */
     }
 
 
