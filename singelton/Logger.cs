@@ -13,7 +13,6 @@ namespace DesignPatterns
         {
 
         }
-
         public static Logger GetInstance()
         {
             if(logger == null)
@@ -21,6 +20,21 @@ namespace DesignPatterns
                 logger = new Logger();
             }
             return logger;
+        }
+
+
+        //another way
+        private static Logger instance;
+        public static Logger Instance
+        {
+            get
+            {
+                if(instance == null)
+                {
+                    instance = new Logger();
+                }
+                return instance;
+            }
         }
     }
 }
