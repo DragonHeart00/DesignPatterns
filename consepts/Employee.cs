@@ -31,6 +31,7 @@ namespace DesignPatterns.consepts
 
     class TestEmployee
     {
+       /* 
         static void Main(string[] args)
         {
             //SuperClass object = new SubClass();
@@ -44,5 +45,6 @@ namespace DesignPatterns.consepts
             employee2.salary = 2000;
             employee2.NotifyEmployess();
         }
+       */
     }
 }
